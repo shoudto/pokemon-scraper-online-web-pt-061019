@@ -24,6 +24,5 @@ class Pokemon
       name = pokemon[1]
       type = pokemon[2]
     Pokemon.new(name: name, type: type, id: id, db: db)
-    binding.pry
   end
 end
